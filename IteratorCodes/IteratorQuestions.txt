@@ -1,0 +1,12 @@
+Q.1) What is the purpose of the iterator ?
+-- the use of iterator to make a data structure iterable which is not, e.g object literal which we practically saw earlier, Arrays, String, Maps or Sets or other similar collections are already iterable. when you crate an obkect which should have a facility of putting for..of loop on it, then you need to create the iterator
+Q.2) How do you create an iterator ?
+the Sysmbol.iterator method must be implemented which should return an iterator object & should also have a next() method which returns the object
+
+Q.3) Explain a practical use of an iterator ?
+
+-- Iterator concept is newly intriduced in ES6, its kind of new technique to iterate or traverse through data structure. Array is already iterable, it means if you want to put a for..of loop on an array , then you can easily do that
+
+-- Rules: When you wan to make an object literal iterable it should have methis having key value as Symbol.iterator
+    Returning the object reference is only possible when iterator & iterable are the same object 
+    If there are two or more for..of running simultaneously then this syntax will not work

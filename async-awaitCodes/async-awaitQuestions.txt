@@ -1,0 +1,10 @@
+Q.1) Can you write await without async ?
+-- no its not possible , you always have to use the async wrapper to use await
+Q.2) Do you need to return a promise from an async function ?
+-- no
+Q.3) Can you have an async IIFE ?
+-- yes
+Q.4) Which is the best way to handle errors with await ?
+-- try catch block
+Q.5) Explain the syntax of Promise.all() with async/await ?
+-- 

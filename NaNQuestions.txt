@@ -1,0 +1,6 @@
+Q.1) What will be the output of the below statement?
+console.log(NaN==NaN);
+-- false
+Q.2) What is the difference between isNaN() and isFinite() method?
+
+-- We prefer to write isFinite() method which nit only checks for NaN but also checks for Infinity & -Infinity as well, isFinite() method checks whether the value is a regular number or not.

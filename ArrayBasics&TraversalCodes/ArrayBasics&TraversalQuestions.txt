@@ -1,0 +1,9 @@
+Q.1) What is the difference between for...in and for...of ?
+-- for..in will display the index number of an array, where as for..of will refer the ellements/values
+Q.2) What will be the output of the below code ?
+let arr = ['ES4','ES5','ES6','ES7']
+arr.forEach((elem, index) => {
+    console.log(elem, index)
+})
+Q.3) What will be the output of below statements ?
+

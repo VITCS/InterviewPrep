@@ -1,0 +1,15 @@
+Q.1) What is the difference between push() and unshift() method ?
+--push() method adds the element at the end of array where as unshift() methos will add the element at the beginning 
+Q.2) What is the difference between pop() and shift() ?
+-- pop() methods deletes the element at the end of array where as shift() method will delete the element at the beginning.
+Q.3) How can you insert an element at a given position ?
+-- splice() is the method we can use toinsert an element at a given position
+ex: arr.splice(0,0,"New")
+Q.4) How can you remove  a specific element ?
+ex: arr.splice(2,1)
+Q.5) What does splice() return ?
+-- splice() return deleted items, if there is nothing to delete then it will return an empty array
+Q.6)  If there is not element removed then what will splice() method return ?
+=> let arr=["One","Two","Three","Four","Five"];
+     console.log(arr.splice(2,0,"New")); 
+     -- it returns an empty array

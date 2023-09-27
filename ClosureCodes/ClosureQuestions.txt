@@ -1,0 +1,8 @@
+Q.1) How can you access private variable or function outside the scope ?
+-- we can do through closure
+Q.2) Explain the advantage of closure ?
+-- The main advantage of closre is that any member which is private for certain scope, can be accessed keeping it private so that the variable is away from any accidental change of value, accessing private members with a closure pattern assure bette approach of making a variable global
+
+-- When a function comes under anoterh function a "Closure " is created, Closure pattern remebers outer variable & also helps to access outer scope memebers
+-- when you use closure, you are making private members globally available 
+-- Closure is useful when you wnat to make few private memebers avaialble globalyy when needed

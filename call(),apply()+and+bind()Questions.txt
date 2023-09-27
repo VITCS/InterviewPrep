@@ -1,0 +1,37 @@
+Q.1) What is the difference between call, apply and bind()?
+Q.2) What will be the output of this code? Or can you assign value to “this” object with assignment operator i.e. “=”?
+const obj={
+      a:6
+}
+function test(){
+      this=obj;
+}
+test();
+
+
+function test(a,b){
+      console.log(this)
+}
+let obj={
+      a:5
+}
+obj.call(obj, 5,6)
+
+function test(a,b, c){
+      console.log(this)
+}
+let obj={
+      a:5
+}
+obj.apply(obj, [5,6])
+
+
+function test(a,b){
+      console.log(this)
+}
+let obj={
+      a:5
+}
+const ref = obj.bind(obj, 5,6)
+
+-- call is used to change the reference or context or value of this object
